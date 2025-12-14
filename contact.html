@@ -1,38 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Contact | Eveneum Solutions</title>
-  <link rel="stylesheet" href="style.css"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Eveneum Solutions</title>
+  <meta name="description" content="Contact Eveneum Solutions to start hiring or submit questions. Based in Ahmedabad." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Eveneum Solutions home">
+        <svg class="logo" width="150" height="36" viewBox="0 0 200 36" xmlns="http://www.w3.org/2000/svg" role="img">
+          <rect rx="4" width="200" height="36" fill="#F4C400"></rect>
+          <text x="16" y="24" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#111">Eveneum</text>
+        </svg>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="services.html">services</a></li>
+          <li><a href="candidates.html">candidates</a></li>
+          <li><a href="companies.html">for companies</a></li>
+          <li><a href="contact.html" class="btn-cta">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-<header class="navbar">
-  <div class="container nav-flex">
-    <div class="logo">Eveneum Solutions</div>
-    <nav>
-      <a href="index.html">Home</a>
-    </nav>
-  </div>
-</header>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>contact us</h1>
+        <p class="lede">Whether you are hiring or looking for opportunities, reach out and we will respond within one business day.</p>
+      </div>
+    </section>
 
-<section class="page">
-  <div class="container">
-    <h1>Contact Us</h1>
-    <p class="subtitle">
-      Let’s discuss your hiring or career requirements.
-    </p>
+    <section class="container content" id="hire">
+      <div class="grid-2">
+        <div>
+          <h2>office</h2>
+          <address>
+            Eveneum Solutions Private Limited<br/>
+            07, 1st Floor, Vishwamitra Complex<br/>
+            Opp. Kalupur Bank, Stadium Road, Navrangpura<br/>
+            Ahmedabad - 380014
+          </address>
+          <p>Email: <a href="mailto:info@theeveneum.com">info@theeveneum.com</a><br/>Phone: 97-1212-1188</p>
+          <p><a href="https://www.theeveneum.com" target="_blank" rel="noopener">www.theeveneum.com</a></p>
+          <p><a class="btn-plain" href="https://www.linkedin.com/company/90886499" target="_blank" rel="noopener">linkedin</a></p>
+        </div>
 
-    <p>Email: info@eveneum.in</p>
-    <p>Location: Ahmedabad, India</p>
-  </div>
-</section>
+        <div>
+          <h2>send a message</h2>
+          <form class="contact-form" action="mailto:info@theeveneum.com" method="post" enctype="text/plain">
+            <label for="fname">full name</label>
+            <input id="fname" name="name" type="text" required />
 
-<footer>
-  <div class="container footer">
-    <p>© 2025 Eveneum Solutions Pvt Ltd</p>
-  </div>
-</footer>
+            <label for="femail">email</label>
+            <input id="femail" name="email" type="email" required />
 
+            <label for="fphone">phone</label>
+            <input id="fphone" name="phone" type="tel" />
+
+            <label for="fmessage">message</label>
+            <textarea id="fmessage" name="message" rows="6" required></textarea>
+
+            <button type="submit" class="btn-primary">send message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p>© Eveneum Solutions Private Limited</p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
