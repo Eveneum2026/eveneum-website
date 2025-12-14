@@ -1,1 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+}
 
+header {
+  background: #0f172a;
+  color: white;
+  padding: 20px;
+}
+
+nav a {
+  color: white;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+h1, h2 {
+  color: #0f172a;
+}
+
+a {
+  color: #2563eb;
+}
