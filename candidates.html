@@ -1,45 +1,88 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>For Candidates | Eveneum Solutions</title>
-  <link rel="stylesheet" href="style.css"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>For Candidates — Eveneum Solutions</title>
+  <meta name="description" content="Candidates — apply for opportunities with Eveneum Solutions. Submit your resume or check open roles." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Eveneum Solutions home">
+        <svg class="logo" width="150" height="36" viewBox="0 0 200 36" xmlns="http://www.w3.org/2000/svg" role="img">
+          <rect rx="4" width="200" height="36" fill="#F4C400"></rect>
+          <text x="16" y="24" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#111">Eveneum</text>
+        </svg>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="services.html">services</a></li>
+          <li><a href="candidates.html">candidates</a></li>
+          <li><a href="companies.html">for companies</a></li>
+          <li><a href="contact.html" class="btn-cta">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-<header class="navbar">
-  <div class="container nav-flex">
-    <div class="logo">Eveneum Solutions</div>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="contact.html" class="btn">Apply</a>
-    </nav>
-  </div>
-</header>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>candidates</h1>
+        <p class="lede">Looking for your next opportunity in accounting, BPO or KPO? Share your details and we'll match you with relevant roles.</p>
+      </div>
+    </section>
 
-<section class="page">
-  <div class="container">
-    <h1>For Job Seekers</h1>
-    <p class="subtitle">
-      Opportunities that match your skills and career goals.
-    </p>
+    <section class="container content">
+      <h2>how to apply</h2>
+      <ol>
+        <li>Attach your updated CV and a short note about the roles you prefer.</li>
+        <li>Share current CTC, expected CTC and notice period.</li>
+        <li>We will review and get back if there's a match.</li>
+      </ol>
 
-    <ul class="list">
-      <li>BPO & KPO roles</li>
-      <li>Accounting & finance positions</li>
-      <li>Freshers & experienced hiring</li>
-      <li>Interview guidance and support</li>
-    </ul>
+      <h3>submit your resume</h3>
+      <p>This site uses a simple mailto-based submission. If you prefer, you can also share via our form (link provided in email responses).</p>
 
-    <a href="contact.html" class="btn primary">Submit Your Profile</a>
-  </div>
-</section>
+      <form class="contact-form" action="mailto:info@theeveneum.com" method="post" enctype="text/plain">
+        <label for="name">full name</label>
+        <input id="name" name="name" type="text" required />
 
-<footer>
-  <div class="container footer">
-    <p>© 2025 Eveneum Solutions Pvt Ltd</p>
-  </div>
-</footer>
+        <label for="email">email</label>
+        <input id="email" name="email" type="email" required />
 
+        <label for="phone">phone</label>
+        <input id="phone" name="phone" type="tel" />
+
+        <label for="ctc">current ctc</label>
+        <input id="ctc" name="ctc" type="text" />
+
+        <label for="expected">expected ctc</label>
+        <input id="expected" name="expected" type="text" />
+
+        <label for="notice">notice period</label>
+        <input id="notice" name="notice" type="text" />
+
+        <label for="message">message (roles, experience, linkedin)</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <p class="muted">attach resume in your mail client after submission, or include a link to your resume in the message.</p>
+
+        <button type="submit" class="btn-primary">send application</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p><a href="mailto:info@theeveneum.com">info@theeveneum.com</a></p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
