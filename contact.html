@@ -1,85 +1,217 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Contact — Eveneum Solutions</title>
-  <meta name="description" content="Contact Eveneum Solutions to start hiring or submit questions. Based in Ahmedabad." />
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Eveneum Solutions - Get in touch for recruitment services in BPO, KPO, accounting, finance, and operations.">
+    <title>Contact Us - Eveneum Solutions</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="index.html" aria-label="Eveneum Solutions home">
-        <svg class="logo" width="150" height="36" viewBox="0 0 200 36" xmlns="http://www.w3.org/2000/svg" role="img">
-          <rect rx="4" width="200" height="36" fill="#F4C400"></rect>
-          <text x="16" y="24" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#111">Eveneum</text>
-        </svg>
-      </a>
-      <nav class="main-nav" aria-label="Main navigation">
-        <ul class="nav-list">
-          <li><a href="index.html">home</a></li>
-          <li><a href="about.html">about</a></li>
-          <li><a href="services.html">services</a></li>
-          <li><a href="candidates.html">candidates</a></li>
-          <li><a href="companies.html">for companies</a></li>
-          <li><a href="contact.html" class="btn-cta">contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <span class="logo-icon">E</span>
+                <span class="logo-text">EVENEUM</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="companies.html">For Companies</a></li>
+                <li><a href="candidates.html">Candidates</a></li>
+                <li><a href="contact.html" class="nav-cta active">Get Started</a></li>
+            </ul>
+            <div class="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
 
-  <main>
-    <section class="page-hero">
-      <div class="container">
-        <h1>contact us</h1>
-        <p class="lede">Whether you are hiring or looking for opportunities, reach out and we will respond within one business day.</p>
-      </div>
+    <section class="page-hero-alt">
+        <div class="container">
+            <div class="page-hero-content">
+                <span class="section-badge">Contact Us</span>
+                <h1>Let's <span class="gradient-text">Start a Conversation</span></h1>
+                <p>Whether you're hiring or exploring opportunities, we're here to help</p>
+            </div>
+        </div>
     </section>
 
-    <section class="container content" id="hire">
-      <div class="grid-2">
-        <div>
-          <h2>office</h2>
-          <address>
-            Eveneum Solutions Private Limited<br/>
-            07, 1st Floor, Vishwamitra Complex<br/>
-            Opp. Kalupur Bank, Stadium Road, Navrangpura<br/>
-            Ahmedabad - 380014
-          </address>
-          <p>Email: <a href="mailto:info@theeveneum.com">info@theeveneum.com</a><br/>Phone: 97-1212-1188</p>
-          <p><a href="https://www.theeveneum.com" target="_blank" rel="noopener">www.theeveneum.com</a></p>
-          <p><a class="btn-plain" href="https://www.linkedin.com/company/90886499" target="_blank" rel="noopener">linkedin</a></p>
+    <section class="contact-main-section">
+        <div class="container">
+            <div class="contact-layout-modern">
+                <div class="contact-form-section">
+                    <div class="form-header">
+                        <h2>Send Us a Message</h2>
+                        <p>Fill out the form below and we'll get back to you within 1-2 business days.</p>
+                    </div>
+                    <form class="modern-form">
+                        <div class="form-row">
+                            <div class="form-field">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" required>
+                            </div>
+                            <div class="form-field">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" required>
+                            </div>
+                        </div>
+                        <div class="form-field">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone">
+                        </div>
+                        <div class="form-field">
+                            <label for="inquiry-type">I am a *</label>
+                            <select id="inquiry-type" required>
+                                <option value="">Select...</option>
+                                <option value="company">Company / Hiring Manager</option>
+                                <option value="candidate">Job Seeker / Candidate</option>
+                            </select>
+                        </div>
+                        <div class="form-field">
+                            <label for="message">Message *</label>
+                            <textarea id="message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Send Message</button>
+                    </form>
+                </div>
+
+                <div class="contact-info-section">
+                    <div class="contact-card">
+                        <div class="contact-card-header">
+                            <h3>Get in Touch</h3>
+                            <p>We're here to answer your questions and discuss how we can work together.</p>
+                        </div>
+                        
+                        <div class="contact-details-modern">
+                            <div class="contact-detail">
+                                <div class="detail-icon">📍</div>
+                                <div>
+                                    <h4>Location</h4>
+                                    <p>Ahmedabad, Gujarat, India</p>
+                                </div>
+                            </div>
+                            <div class="contact-detail">
+                                <div class="detail-icon">✉️</div>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p><a href="mailto:contact@evenemumsolutions.com">contact@evenemumsolutions.com</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-detail">
+                                <div class="detail-icon">🕐</div>
+                                <div>
+                                    <h4>Business Hours</h4>
+                                    <p>Monday - Saturday<br>10:00 AM - 6:00 PM IST</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="quick-links-card">
+                        <h4>Quick Links</h4>
+                        <div class="quick-link-item">
+                            <a href="companies.html">
+                                <div class="quick-link-icon">→</div>
+                                <div>
+                                    <h5>For Companies</h5>
+                                    <p>Learn about our services</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="quick-link-item">
+                            <a href="candidates.html">
+                                <div class="quick-link-icon">→</div>
+                                <div>
+                                    <h5>For Candidates</h5>
+                                    <p>Explore opportunities</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div>
-          <h2>send a message</h2>
-          <form class="contact-form" action="mailto:info@theeveneum.com" method="post" enctype="text/plain">
-            <label for="fname">full name</label>
-            <input id="fname" name="name" type="text" required />
-
-            <label for="femail">email</label>
-            <input id="femail" name="email" type="email" required />
-
-            <label for="fphone">phone</label>
-            <input id="fphone" name="phone" type="tel" />
-
-            <label for="fmessage">message</label>
-            <textarea id="fmessage" name="message" rows="6" required></textarea>
-
-            <button type="submit" class="btn-primary">send message</button>
-          </form>
-        </div>
-      </div>
     </section>
-  </main>
 
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>
-        <p>© Eveneum Solutions Private Limited</p>
-      </div>
-    </div>
-  </footer>
+    <section class="next-steps-section">
+        <div class="container">
+            <div class="next-steps-card">
+                <h2>What Happens Next?</h2>
+                <div class="steps-grid">
+                    <div class="step-item">
+                        <div class="step-icon">1</div>
+                        <h4>We Review</h4>
+                        <p>Your message reaches our team within minutes</p>
+                    </div>
+                    <div class="step-item">
+                        <div class="step-icon">2</div>
+                        <h4>We Respond</h4>
+                        <p>Expect a reply within 1-2 business days</p>
+                    </div>
+                    <div class="step-item">
+                        <div class="step-icon">3</div>
+                        <h4>We Connect</h4>
+                        <p>Schedule a call to discuss your needs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-icon">E</span>
+                        <span class="logo-text">EVENEUM</span>
+                    </div>
+                    <p>Specialized recruitment and staffing for BPO, KPO, accounting, finance, and operations roles.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Solutions</h4>
+                    <ul>
+                        <li><a href="companies.html">For Companies</a></li>
+                        <li><a href="candidates.html">For Candidates</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Location</h4>
+                    <p>Ahmedabad, Gujarat, India</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Eveneum Solutions Private Limited. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const toggle = document.querySelector('.mobile-toggle');
+        const menu = document.querySelector('.nav-menu');
+        toggle.addEventListener('click', () => {
+            menu.classList.toggle('active');
+            toggle.classList.toggle('active');
+        });
+
+        const form = document.querySelector('.modern-form');
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Thank you for your message! We will get back to you within 1-2 business days.');
+            form.reset();
+        });
+    </script>
 </body>
 </html>
